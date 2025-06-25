@@ -1,5 +1,30 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.navbar {
+  background-color: brown;
+}
+
+.container-fluid {
+  background-color: aqua;
+}
+
+.nav-item {
+  background-color: chartreuse;
+}
+
+.navbar-toggler-icon {
+  color: darkblue
 }
