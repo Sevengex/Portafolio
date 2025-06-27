@@ -9,22 +9,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
   height: 100vh;
 }
 
+/* 
 .navbar {
   background-color: brown;
 }
 
 .container-fluid {
   background-color: aqua;
-}
-
-.nav-item {
-  background-color: chartreuse;
-}
-
-.navbar-toggler-icon {
-  color: darkblue
-}
+} */
