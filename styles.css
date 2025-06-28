@@ -43,7 +43,11 @@ main {
   padding: 40px;
 }
 
-
+.hab-list {
+  display: flex;
+  flex-direction: column;
+  background-color: aliceblue;
+}
 
 footer {
   display: flex;
