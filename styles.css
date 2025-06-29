@@ -39,14 +39,41 @@ main {
   justify-content: center;
   background-color: brown;
   margin-top: 20px;
-  width: 600px;
+  width: 800px;
   padding: 40px;
 }
 
+.titulo-hab {
+  margin-bottom: 20px;
+}
+
 .hab-list {
+  font-size: 17px;
+  font-weight: bolder;
+}
+
+.imgcc {
+  width: 50px;
+}
+
+.imgc,
+.pascal-icon,
+.html-icon,
+.css-icon,
+.bootrap-icon {
+  margin-left: 20px;
+  width: 50px;
+}
+
+.proy-cont {
   display: flex;
+  align-items: center;
   flex-direction: column;
-  background-color: aliceblue;
+  justify-content: center;
+  background-color: orange;
+  margin-top: 20px;
+  width: 800px;
+  padding: 40px;
 }
 
 footer {
@@ -57,4 +84,18 @@ footer {
   width: 600px;
   padding: 40px;
   background-color: darkcyan;
+}
+
+.links-cont {
+  font-weight: bolder;
+}
+
+.email-icon {
+  width: 40px;
+}
+
+.what-icon,
+.github-icon {
+  margin-left: 20px;
+  width: 35px;
 }
