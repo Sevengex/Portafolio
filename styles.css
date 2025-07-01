@@ -5,17 +5,47 @@
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+header {
+  margin: 0;
+  padding: 0;
+}
+
 body {
-  background-image: url(/assets/Back-body.jpg);
+  margin: 0;
+  padding: 0;
+  background-image: url(/assets/back.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+}
+
+.cards-cont-abs {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 100vh;
+}
+
+.navbar .nav-link.active {
+  color: white !important;
+}
+
+.navbar a,
+.navbar-brand a,
+.nav-item a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar {
+  color: aliceblue;
+  align-self: flex-start;
+  width: 100%;
+  margin-top: 0;
+  padding-top: 0;
+  position: relative;
+  top: 0;
 }
 
 main {
@@ -25,41 +55,49 @@ main {
   flex-direction: column;
   width: 600px;
   padding: 40px;
+
 }
 
 .sobremi {
+
+  color: aliceblue;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  background-color: chartreuse;
+  background-color: rgba(0, 0, 0, 0.5);
   width: 600px;
   padding: 30px;
   border-radius: 20px;
+  box-shadow: 1px 2px 15px 4px rgba(255, 255, 255, 0.75);
 }
 
 .proy-cont {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: aliceblue;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  background-color: orange;
   margin-top: 20px;
   width: 800px;
   padding: 20px;
   border-radius: 20px;
+  box-shadow: 1px 2px 15px 4px rgba(255, 255, 255, 0.75);
 }
 
 .habilidades {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: aliceblue;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  background-color: brown;
   margin-top: 20px;
   width: 800px;
   padding: 30px;
   border-radius: 20px;
+  box-shadow: 1px 2px 15px 4px rgba(255, 255, 255, 0.75);
 }
 
 .titulo-hab {
@@ -86,14 +124,16 @@ main {
 
 
 footer {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: aliceblue;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 600px;
   padding: 30px;
-  background-color: darkcyan;
   border-radius: 20px;
+  box-shadow: 1px 2px 15px 4px rgba(255, 255, 255, 0.75);
 }
 
 .links-cont {
@@ -101,11 +141,15 @@ footer {
 }
 
 .email-icon {
+  background-color: aliceblue;
+  border-radius: 11px;
   width: 40px;
 }
 
 .what-icon,
 .github-icon {
+  border-radius: 11px;
+  background-color: aliceblue;
   margin-left: 20px;
   width: 35px;
 }
