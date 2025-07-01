@@ -20,6 +20,11 @@ body {
   background-attachment: fixed;
 }
 
+.navbar-toggler-icon {
+  background-color: aliceblue;
+  border-radius: 5px;
+}
+
 .cards-cont-abs {
   display: flex;
   justify-content: center;
@@ -27,19 +32,15 @@ body {
   flex-direction: column;
 }
 
-.navbar .nav-link.active {
-  color: white !important;
-}
-
 .navbar a,
 .navbar-brand a,
 .nav-item a {
   color: white;
   text-decoration: none;
+  font-size: 30px;
 }
 
 .navbar {
-  color: aliceblue;
   align-self: flex-start;
   width: 100%;
   margin-top: 0;
