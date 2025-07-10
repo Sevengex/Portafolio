@@ -11,6 +11,9 @@ header {
 }
 
 body {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500. 1fr));
+  gap: 30px;
   margin: 0;
   padding: 0;
   background-image: url(/assets/back.jpg);
